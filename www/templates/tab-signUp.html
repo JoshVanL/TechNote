@@ -1,0 +1,30 @@
+<ion-view view-title="Sign Up">
+    <ion-content>
+        <div class="bar bar-subheader">
+            <form ng-submit="sign.signUp()">
+                <div class="list">
+                    <label class="item item-input">
+                        <input id="email" name="email" type="email" placeholder="Your email" ng-model="sign.email">
+                    </label>
+                    <label class="item item-input">
+                        <input id="FirstName" name="FirstName" type="test" placeholder="Your First Name" ng-model="sign.firstName">
+                    </label>
+                    <label class="item item-input">
+                        <input id="LastName" name="LastName" type="text" placeholder="Your Last Name" ng-model="sign.lastName">
+                    </label>
+                    <label class="item item-input">
+                        <input id="password" name="password" type="password" placeholder="Your password" ng-model="sign.password">
+                    </label>
+                    <label class="item item-input">
+                        <input id="passwordAgain" name="passwordAgain" type="password" placeholder="Re-type password" ng-model="sign.passwordAgain">
+                    </label>
+                </div>
+                <div class="padding">
+                    <button class="button button-block button-positive" type="submit">
+                        Sign Up
+                    </button>
+                </div>
+            </form>
+        </div>
+    </ion-content>
+</ion-view>
